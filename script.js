@@ -18,7 +18,7 @@ function moveRight() {
   var left = parseInt(
     window.getComputedStyle(character).getPropertyValue("left")
   );
-  if (left < 350) {
+  if (left < 375) {
     character.style.left = left + 2 + "px";
   }
 }
